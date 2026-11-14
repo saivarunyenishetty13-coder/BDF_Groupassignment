@@ -1,0 +1,17 @@
+{
+  "name": "kitchenkeys-cloud-kitchen",
+  "version": "1.0.0",
+  "description": "REST API for KitchenKeys Cloud Kitchen: chefs, stations and bookings (BDF Group Assignment, Theme 18, twist: Top three)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
